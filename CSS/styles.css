@@ -1,66 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 @import "reset.css";
-@import "status-bar.css";
 @import "variables.css";
+
+@import "status-bar.css";
+@import "nav-bar.css";
+
+@import "login.css";
+
+@import "welcome.css";
 
 body{
     font-family: 'Open Sans', sans-serif;
+    height: 1000vh;
 }
 
-.welcome-header{
-    margin: 90px 0px;
-    text-align: center;
+.nav{
+    background-color: #f9f9fa;
+    padding: 20px 40px;
+}
+.nav__list{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.welcome-header__title{
-    margin-bottom: 20px;
-    font-size: 25px;
-}
-
-.welcome-header__text{
-    width: 60%;
-    opacity: 0.7;
-}
-
-.ID_login{
-    display: flex;
-    flex-direction: column;
-    margin: 0px 15px;
-}
-
-.ID_login input{
-    border: none;
-    padding: 12px 0px;
-    font-size: 18px;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
-    margin-bottom: 20px;
-    transition: border-color 0.3s ease-in-out;
-}
-
-.ID_login input:not([type="text"]){
-    border-bottom: none;
-}
-
-.ID_login input::placeholder{
-    color: rgba(0,0,0,0.4);
-}
-
-.ID_login input:focus {
-    border-color: var(--yoellow);
-}
-
-.ID_login input[type="submit"]{
-    background-color: var(--yoellow);
-    cursor: pointer;
-    padding:20px 0px;
-    border-radius: 10px;
-}
-
-.ID_login a{
-    text-align: center;
-    text-decoration: none;
-    color:inherit;
-    font-size: 13px;
+    justify-content: space-between;
 }

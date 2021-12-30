@@ -1,0 +1,40 @@
+.ID_login{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 15px;
+}
+
+.ID_login input{
+    border: none;
+    padding: 12px 0px;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.ID_login input:not([type="text"]){
+    border-bottom: none;
+}
+
+.ID_login input::placeholder{
+    color: rgba(0,0,0,0.4);
+}
+
+.ID_login input:focus {
+    border-color: var(--yoellow);
+}
+
+.ID_login input[type="submit"]{
+    background-color: var(--yoellow);
+    cursor: pointer;
+    padding:20px 0px;
+    border-radius: 10px;
+}
+
+.ID_login a{
+    text-align: center;
+    text-decoration: none;
+    color:inherit;
+    font-size: 13px;
+}
