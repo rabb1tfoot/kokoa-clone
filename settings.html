@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="CSS/styles.css">
         <meta charset="UTF-8"/>
         <meta name="Viewport" content="width=device-width"/>
-        <title>More - Cocoa talk Clone</title>
+        <title>Settings - Cocoa talk Clone</title>
     </head>
     <body>
         <div class="status-bar">
@@ -22,65 +22,44 @@
             </div>
         </div>
 
-        <header class="screen-header">
-            <H1 class="screen-header__title">More</H1>
-            <div class="screen-header__icons">
-                <span><i class="fas fa-search fa-lg"></i></span>
-                <span><i class="fas fa-music fa-lg"></i></span>
-                <span><i class="fas fa-cog fa-lg"></i></span>
+        <header class="alt-header">
+            <div class="alt-header__column">
+                <a href="more.html">
+                    <i class="fas fa-angle-left fa-3x"></i>
+                </a>
+            </div>
+            <div class="alt-header__column">
+                <h1 class="alt-header__title">Settings</h1>
+            </div>
+            <div class="alt-header__column">
+                <i class="fas fa-search fa-2x"></i>
             </div>
         </header>
 
-        <main class="main-screen more-screen">
-            <div class="user-component">
-                <div class="user-component__column">
-                    <img src="photo/rabb1t.jpg" class="user-component__avatar user-component__avatar--xl" />
-                    <div class="user-component__text">
-                        <h4 class="user-component__title">rabb1tfoot</h4>
-                        <h6 class="user-component__subtitle">this is subtitle here.</h6>
+        <main class="main-screen">
+           <ul class="settings-list">
+               <li class="settings__setting">
+                   <div class="settings__setting-column">
+                        <i class="fas fa-bullhorn"></i>
+                        <span>Notices</span>
                     </div>
-                </div>
-                <div class="user-component__column">
-                    <i class="far fa-comment-alt fa-2x"></i>
-                </div>
-            </div>
-            <div class="icon-row">
-                <div class="icon-row__icon"><i class="far fa-calendar"></i>
-                    <span>Calendar</span>
-                </div>
-                <div class="icon-row__icon"><i class="far fa-grin"></i>
-                    <span>Emotions</span>
-                </div>
-                <div class="icon-row__icon"><i class="fas fa-paint-brush"></i>
-                    <span>Themes</span>
-                </div>
-                <div class="icon-row__icon"><i class="fas fa-file-invoice-dollar"></i>
-                    <span>Account</span>
-                </div>
-            </div>
-            <div class="more-suggestions">
-                <h4 class="more-suggestions__title">Suggestions</h4>
-                <div class="more-suggestions__icons">
-                    <div class="more-suggestions__icon">
-                        <div class="more-suggestions__icon-image">
-                            <i class="fas fa-quote-right"></i>
-                        </div>
-                        <span class="more-suggestion__icon-text">Cocoa Stroy</span>
+                    <div class="settings__setting-column"></div>
+               </li>
+               <li class="settings__setting">
+                    <div class="settings__setting-column">
+                        <i class="fas fa-flask"></i>
+                            <span>Cocoa Lab</span>
                     </div>
-                    <div class="more-suggestions__icon">
-                        <div class="more-suggestions__icon-image">
-                            <i class="fas fa-quote-right"></i>
-                        </div>
-                        <span class="more-suggestion__icon-text">Cocoa Stroy</span>
+                    <div class="settings__setting-column"></div>
+                </li>
+                <li class="settings__setting">
+                    <div class="settings__setting-column">
+                        <i class="fas fa-info-circle"></i>
+                            <span>Version</span>
                     </div>
-                    <div class="more-suggestions__icon">
-                        <div class="more-suggestions__icon-image">
-                            <i class="fas fa-quote-right"></i>
-                        </div>
-                        <span class="more-suggestion__icon-text">Cocoa Stroy</span>
-                    </div>
-                </div>
-            </div>
+                    <div class="settings__setting-column">Lastest Version</div>
+                </li>
+           </ul>
         </main>
        
         <nav class="nav">
