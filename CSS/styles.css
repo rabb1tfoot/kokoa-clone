@@ -11,6 +11,9 @@
 @import "welcome.css";
 @import "user-component.css";
 @import "badge.css";
+@import "find.css";
+@import "more.css";
+@import "icon-add.css";
 
 body{
     color: #2e363e;
