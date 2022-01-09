@@ -22,11 +22,11 @@
 }
 
 .ID_login input:focus {
-    border-color: var(--yoellow);
+    border-color: var(--yellow);
 }
 
 .ID_login input[type="submit"]{
-    background-color: var(--yoellow);
+    background-color: var(--yellow);
     cursor: pointer;
     padding:20px 0px;
     border-radius: 10px;
